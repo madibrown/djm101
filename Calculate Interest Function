@@ -1,0 +1,10 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        double item, salestax, finalcost;
+        item = 40.15; 
+        salestax = item*0.07; 
+        finalcost = salestax+item;
+        System.out.println("the grand total of the item is: $" + finalcost);
+     }
+}
